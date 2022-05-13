@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listStyling,linkStyling</title>
+</head>
+<style>
+    ul.one
+    {
+     list-style: none;
+     padding: 0;
+     margin: 0;   
+    }
+    ul.one li
+    {
+        background-image: url(images/1.jpg);
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        width: 0px;
+        background-position: 0% center;
+    }
+    ul.two
+    {
+         /*list-style: lower-greek; */
+       list-style: lower-roman;
+       /*list-style-image: url(image);*/
+
+    }
+
+    a:link
+    {
+      color:dimgray;  
+      text-decoration: none;
+    }
+
+    a:hover
+    {
+
+        font-size: 100px;
+    }
+
+    a:active
+    {
+        
+        margin-left: 142PX;
+        color: blue;
+    }
+
+
+</style>
+<body>
+
+    <p>First list elements</p>
+    <ul class="one">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+    <p>Seconf list elements</p>
+    <ul class="two">
+        <li>Five</li>
+        <li>six</li>
+        <li>seven</li>
+        <li>eight</li>
+
+    </ul>
+<br><br><br>
+    <div class="links">
+        <a href="#"> click</a>
+    </div>
+    
+</body>
+</html>
