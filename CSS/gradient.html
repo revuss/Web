@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient,Transform</title>
+<style>
+.one{
+    height: 50px;
+    width: auto;
+    /*background: linear-gradient(to right,orange,white,green) ;*/
+  /*  background: linear-gradient(to left,rgba(0,255,0,0) ,rgba(0,255,0,2));
+*/
+    background: linear-gradient(to bottom right,orange,white,green);
+
+}
+.two
+{
+    height:50px;
+    width: auto;
+    background: radial-gradient(blue 0%,white 50%,orange 10%);
+}
+.one p
+{
+    color: chocolate;
+    transform: scale(1,1.5);
+}
+
+.two p
+{
+     color: aqua;
+     transform: translate(270px,13px);
+
+}
+.three
+{
+    height: 50px;
+    width: auto;
+    background: linear-gradient(rgba(10,32,55,0.4),rgba(12,12,123,0.7));
+}
+.three p
+{
+ color: crimson;
+
+ transform: skew(20deg,-3deg);   
+}
+.four{
+    height: 50px;
+    width: 100px;
+    background: green;
+    transform: rotate(40deg);
+    transform: rotateY(400deg);
+
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="one">
+        <p>FaceBook</p>
+
+    </div>
+    <div class="two"><p> Microsoft</p></div>
+    <div class="three"><p>Random</p></div>
+    <div class="four"><p>New</p></div>
+    
+</body>
+</html>

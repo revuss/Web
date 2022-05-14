@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .one
+        {
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            animation: myanimation 14s;
+        }
+
+        @keyframes myanimation
+     
+    {    
+            from{color: black;}
+            to{color: whitesmoke;}
+    }
+    .two
+    {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        color:white;
+        position:relative;
+        animation: newanime 4s;
+    }
+
+    @keyframes newanime
+    {
+        0%{background: red;left: 0px;top:0px}
+        25%{background:black;left:200px;top:0px}
+        50%{background: pink;left:200px;top:200px}
+        75%{background: blue;left:0px;top:200px}
+        100%{background: red;left: 0px;top: 0px;}
+    }
+    
+        
+    </style>
+</head>
+<body>
+
+    <div class="one">
+<p>wasd</p>
+    </div><br>
+    <div class="two">
+
+    </div>
+
+
+    
+</body>
+</html>
