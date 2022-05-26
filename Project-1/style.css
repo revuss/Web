@@ -1,0 +1,191 @@
+#container
+{
+    width: 1200px;
+    margin:0 auto;
+    /* border: 2px solid black; */
+
+}
+h1 a
+{
+    font-size: 50px;
+    font-weight: 100;
+    text-decoration: none;
+}
+#brand
+{
+    float: left;
+}
+#header
+{
+    height: 100px;
+}
+
+#searchbox
+{
+    float: right;
+    background: linear-gradient(#003444,#0F202D);
+    width: 400px;
+    height: 50px;
+    padding: 20px 10px 0  20px;
+    margin-top: 18px;
+    border: 2px solid rgb(20, 18, 18);
+}
+.text
+{
+    color: #0F202D;
+    font-size: 13px;
+    float: left;
+    padding: 6px;
+    background: white url(images/icon.png) right center no-repeat;
+    background-position: 138px;
+}
+.submit
+{
+    float: right;
+    font-weight: bold;
+    color: aliceblue;
+    background:purple;
+    padding: 5px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    border-style: none;
+}
+
+#menu
+{
+    height: 60px;
+    background:#003444;
+}
+ul
+{
+    list-style: none;
+}
+
+#menu ul li
+{
+    border-right: 1px solid white;
+    height: 20px;
+    padding: 0 80px;
+    float: left;
+    margin-top: 15px;
+}
+
+ul li
+{
+    padding: 0 30px;
+}
+ul li a
+{
+    text-decoration: none;
+    font-size: 140%;
+    color: white;
+    transition: font-size 0.4s ease;
+}
+#menu ul li:last-child
+{
+    border-right: none;
+}
+ul li a:hover
+{
+    font-size: 220%;
+}
+
+#introduction
+{
+    
+    padding: 20px;
+    background:linear-gradient(#161F45,#081863);
+    margin-top: 15px;
+}
+
+#introduction h3
+{
+    font-size: 40px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#introduction p
+{
+    font-size: 23px;
+    color: aliceblue;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sidebar
+{
+    height: 500px;
+    width: 450px;
+    border: 3px solid #081863;
+    margin-top: 5%;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#left
+{
+    float: left;
+}
+#right
+{
+    float: right;
+}
+
+.sidebar h3
+{
+    font-size: 200%;
+    color: #081863;
+}
+.sidebar ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 180%;
+    line-height: 10px;
+    transition: font-size 0.2 ease;
+
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active
+{
+    color: #081863;
+    text-decoration: none;
+    font-size: 250%;
+    font-weight: bold;
+
+}
+#left ul 
+{
+    padding-top: 10px ;
+    padding-left: 100px;
+    list-style: circle ;
+}
+
+#left ul li
+{
+    padding-bottom: 15px;
+}
+#right ul 
+{
+    padding-top: 10px ;
+    padding-left: 100px;
+    list-style:georgian ;
+}
+
+#right ul li
+{
+    padding-bottom: 15px;
+}
+
+footer
+{
+    height: 100px;
+    color: white;
+    font-size: 25px;
+    background: linear-gradient(#081863,#0F202D);
+}
+
+footer p
+{
+    padding-left: 33% ;
+    padding-top: 25px;
+}
